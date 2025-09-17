@@ -24,7 +24,7 @@ public class LCM_Least_Common_Multiple {
 		int num2 = sc.nextInt();
 		
 		
-//		 int lcm = (num1 > num2) ? num1 : num2;
+//		 int lcm = (num1 < num2) ? num1 : num2;
 		
 		
 		
@@ -53,4 +53,5 @@ public class LCM_Least_Common_Multiple {
 		sc.close();
 	}
 }
+
 
