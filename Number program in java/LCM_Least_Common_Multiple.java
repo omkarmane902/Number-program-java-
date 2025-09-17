@@ -31,7 +31,7 @@ public class LCM_Least_Common_Multiple {
 		
 		int lcm;
 		
-		if(num1 > num2)
+		if(num1 < num2)
 		{
 			lcm = num1;
 		}
@@ -53,3 +53,4 @@ public class LCM_Least_Common_Multiple {
 		sc.close();
 	}
 }
+
